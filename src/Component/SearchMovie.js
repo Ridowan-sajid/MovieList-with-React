@@ -4,10 +4,10 @@ export default function SearchMovie({ setSearch }) {
   return (
     <div>
       <input
-        style={{ margin: 20, padding: 5, borderRadius: 15 }}
         type="text"
         name="search"
         placeholder="Search..."
+        className="px-4 py-2 m-3 rounded"
         onChange={(e) => setSearch(e.target.value)}
       />
     </div>
